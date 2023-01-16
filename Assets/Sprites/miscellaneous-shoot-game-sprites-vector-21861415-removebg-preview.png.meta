@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: d5b2d6b72a509d24ebfa02391b83e335
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 370
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7add4c6e84d40a3429dfd1f9c7ea77ae
+      internalID: 1756181437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 369
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffc6ee723ec4204e9eaf4cbbe652846
+      internalID: -1360854572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 370
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4481986102ab64bb1ea061185e9e1d
+      internalID: -70064677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 369
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d366d1278f67b94482e094fa8adb0a8
+      internalID: 704905356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 369
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8de8145fd5c2543a2fe6fb6be8bccf
+      internalID: 1243194570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 370
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afe8434026763d45a7a09e35819c57c
+      internalID: 1643445134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 370
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cf8f093ac71514ea9f9725f37c7e04
+      internalID: -1863507407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 369
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482a09d9c1def7740ac4063147d3d221
+      internalID: -254227332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 265
+        width: 105
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c4cc2da34a6742ba074ebdee74616
+      internalID: 637841817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 265
+        width: 107
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b96a365aa97448439443476a232f0ce
+      internalID: -1943782489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 264
+        width: 105
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6e5e2754f392a449f6636c5933080a
+      internalID: -27579193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 265
+        width: 103
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7787a1a619b9c4644938727da4d9f6fd
+      internalID: -1692595644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 206
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fdcd336201c884baf45f12467e5eda
+      internalID: -1800878734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 204
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae42d0029982d14c8bb01b46a6377f2
+      internalID: 1032890531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 202
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f9297a91135bb469e7aa7c8cf2aa92
+      internalID: 158789947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 202
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a392ae8fb355cec4ea2ae9fba8956114
+      internalID: -44436395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 188
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1de5fdc570c2141b1d8c74a10b2d0b
+      internalID: 25764704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 188
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e9bb657b5ba344b96888282d053a79
+      internalID: 34446585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 188
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a1d2ab4e1560e438ca6b72f37150c3
+      internalID: -377650152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 96
+        width: 113
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6320397b0205d3459a9b64900e82697
+      internalID: 1120601229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 99
+        width: 112
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce02d465803669489a9877137796425
+      internalID: -8763758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 101
+        width: 114
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6bf996fc4fc544eaabf6745b3bb590
+      internalID: 184165800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 92
+        width: 118
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa57d804e527234bbad1abde8c745a9
+      internalID: 590608300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_7: -254227332
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_3: 704905356
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_2: -70064677
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_20: -8763758
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_4: 1243194570
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_14: 158789947
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_17: 34446585
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_6: -1863507407
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_10: -27579193
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_13: 1032890531
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_8: 637841817
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_0: 1756181437
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_12: -1800878734
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_18: -377650152
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_9: -1943782489
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_11: -1692595644
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_16: 25764704
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_5: 1643445134
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_19: 1120601229
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_15: -44436395
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_21: 184165800
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_1: -1360854572
+      miscellaneous-shoot-game-sprites-vector-21861415-removebg-preview_22: 590608300
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

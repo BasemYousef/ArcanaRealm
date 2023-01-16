@@ -62,6 +62,37 @@ Transform:
   m_Father: {fileID: 89099109556145111}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2075472364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075472365}
+  m_Layer: 0
+  m_Name: Attack Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2075472365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075472364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.135, y: 0.081, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 89099109556145111}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &89099109556145114
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,9 +109,11 @@ GameObject:
   - component: {fileID: 1894589100}
   - component: {fileID: 1894589104}
   - component: {fileID: 1894589103}
+  - component: {fileID: 1894589105}
+  - component: {fileID: 89099111420717439}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +132,7 @@ Transform:
   m_Children:
   - {fileID: 532306613}
   - {fileID: 86372515}
+  - {fileID: 2075472365}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -186,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfdb03f5ca0c9549b4e07b384f6578a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 300
+  m_JumpForce: 700
   m_MovementSmoothing: 0.22
   m_AirControl: 1
   m_WhatIsGround:
@@ -197,7 +231,19 @@ MonoBehaviour:
   m_CrouchDisableCollider: {fileID: 1894589104}
   OnLandEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1894589103}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnLanding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -218,7 +264,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -235,7 +281,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01, y: -0.17}
+  m_Offset: {x: 0.01, y: -0.16}
   serializedVersion: 2
   m_Radius: 0.06
 --- !u!61 &1894589104
@@ -251,7 +297,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005381722, y: 0.034383453}
+  m_Offset: {x: 0.005381722, y: 0.09681871}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -262,7 +308,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.10900714, y: 0.40123314}
+  m_Size: {x: 0.10900714, y: 0.2763626}
   m_EdgeRadius: 0
 --- !u!114 &1894589103
 MonoBehaviour:
@@ -277,3 +323,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+--- !u!114 &1894589105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89099109556145114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acdf8a80e21b00d42b3b45b9ec175e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magicAttack: {fileID: 5622658315433447286, guid: 07383114471773c49b56842d06b01005, type: 3}
+  magicAttackTransform: {fileID: 2075472365}
+  attackSpeed: 0
+--- !u!114 &89099111420717439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89099109556145114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4186a05972eb5498d01719d3513b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownReduction: 7
+  damage: 50
