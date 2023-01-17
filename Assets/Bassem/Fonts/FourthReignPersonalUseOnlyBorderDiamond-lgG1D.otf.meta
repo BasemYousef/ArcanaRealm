@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 96f3c98d3726cc5409c4799bfdab1ced
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Fourth Reign PERSONAL USE ONLY
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7305d40fbcce7094eb1696ed6324e827, type: 3}
+  - {fileID: 12800000, guid: 850512f8fd5caed469c56563210af74d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
