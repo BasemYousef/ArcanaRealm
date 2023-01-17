@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
 
     private CharacterController2D controller;
+    private SpriteMask spriteMask;
     private Animator animator;
     private float horizontalMove = 0f;
     private bool jump = false;
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController2D>();
         animator = GetComponent<Animator>();
+        spriteMask = GetComponent<SpriteMask>();
     }
 
     // Update is called once per frame
@@ -44,6 +46,13 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             animator.SetBool("IsAttacking", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            //Vector3 tpDistance = 
+
+            transform.position = new Vector3(transform.position.x + 10, transform.position.y, 0f);
         }
 
 
