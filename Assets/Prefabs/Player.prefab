@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acdf8a80e21b00d42b3b45b9ec175e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magicAttack: {fileID: 5622658315433447286, guid: 07383114471773c49b56842d06b01005, type: 3}
+  magicAttack: {fileID: 2369148330051969335, guid: 2a8a10fb4c5758f4d8a0c9a18473f90e, type: 3}
   magicAttackTransform: {fileID: 2075472365}
   attackSpeed: 10
 --- !u!114 &89099111420717439
